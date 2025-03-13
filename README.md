@@ -10,7 +10,7 @@
 
 Malak Linux is an Arch-based distribution that combines the power and flexibility of Arch with thoughtful pre-configuration and enhancements inspired by Arabic cultural principles of elegance, precision, and harmony.
 
-Named after the Arabic word for "angel" (ملاك), Malak represents guidance, protection, and transcendence—qualities we've brought to this Linux distribution to elevate your computing experience.
+Named after the Arabic word for "angel" (ملك), Malak represents guidance, protection, and transcendence—qualities we've brought to this Linux distribution to elevate your computing experience.
 
 ## Features
 
