@@ -1,0 +1,40 @@
+To download Arch Linux using an existing Arch Linux live USB, you can follow these steps:
+
+1. Boot into your Arch Linux live USB.
+
+2. Connect to the internet if you haven't already:
+   - For wired connections, it should connect automatically
+   - For wireless: use `iwctl` to connect to WiFi
+
+3. Create a directory to mount your target storage device:
+   ```
+   mkdir /mnt/usb
+   ```
+
+4. Identify your target USB drive with:
+   ```
+   lsblk
+   ```
+
+5. Mount your target USB drive (replace sdX with your actual device):
+   ```
+   mount /dev/sdX /mnt/usb
+   ```
+
+6. Download the latest Arch Linux ISO (replace the URL with the latest version or choose a mirror closer to you):
+   ```
+   curl -o /mnt/usb/archlinux.iso https://geo.mirror.pkgbuild.com/iso/latest/archlinux-x86_64.iso
+   ```
+
+7. Verify the download (optional but recommended):
+   ```
+   curl -o /mnt/usb/archlinux.iso.sig https://geo.mirror.pkgbuild.com/iso/latest/archlinux-x86_64.iso.sig
+   pacman-key -v /mnt/usb/archlinux.iso.sig
+   ```
+
+8. Unmount the drive:
+   ```
+   umount /mnt/usb
+   ```
+
+Would you like me to explain any part of this process in more detail?
