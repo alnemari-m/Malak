@@ -1,4 +1,3 @@
-# Malak
 # Malak Linux
 
 <div align="center">
